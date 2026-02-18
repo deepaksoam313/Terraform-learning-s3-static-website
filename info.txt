@@ -1,0 +1,1 @@
+terraform apply -var="bucket_name=deepak-s3-bucket-2026-terraform" -var="my_name=Deepak"
