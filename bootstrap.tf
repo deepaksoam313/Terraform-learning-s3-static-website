@@ -1,6 +1,3 @@
-variable "region" {
-  default = "ap-south-1"   # Mumbai region
-}
 
 # Terraform backend bucket
 resource "aws_s3_bucket" "tf_state" {
