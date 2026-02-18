@@ -2,13 +2,9 @@ variable "region" {
   default = "ap-south-1"   # Mumbai region
 }
 
-provider "aws" {
-  region = var.region
-}
-
 # Terraform backend bucket
 resource "aws_s3_bucket" "tf_state" {
-  bucket = "deepak-terraform-state"
+  bucket = "deepak-tf-state-ap-south-1-2026"
   acl    = "private"
 
   versioning {
